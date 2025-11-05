@@ -12,6 +12,20 @@ backend/   # Django project exposing simulation and preset endpoints
 frontend/  # React single-page application for interacting with the DSS
 ```
 
+### Can't find these files on GitHub?
+
+All of the scaffolding described here lives on the `work` branch. If you only
+see the initial repository skeleton on GitHub, switch to that branch (or the
+latest commit `87d3cea`) in the web UI or locally:
+
+```bash
+git fetch origin
+git checkout work
+```
+
+Once the branch is checked out you should see the `backend/` and `frontend/`
+directories together with the rest of the generated project files.
+
 ## Backend quick start
 
 1. Create and activate a Python virtual environment.
